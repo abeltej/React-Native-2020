@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Stylesheet, Text, FlatList } from 'react-native';
+import { View, StyleSheet, Text, FlatList } from 'react-native';
 
 const ListScreen = () => {
   const friends = [{ name: 'Friend1', age: 21 }, { name: 'Friend2', age: 22 }, { name: 'Friend3', age: 25 }, { name: 'Friend4', age: 27 }];
